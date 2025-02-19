@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order </title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/duotone.css"/>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/brands.css"/>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body id="home">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container">
+            <a class="navbar-brand me-5 mb-1 text-success fw-bold fs-2" href="#">SaHa</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#Home">Home</a>
+                    </li>
+                    <li class="nav-item dropdown" >
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Menu
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="menu.html">Main Dishes</a></li>
+                            <li><a class="dropdown-item" href="menu.html">Pastries</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="menu.html">Sweets </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+
+                <form class="d-flex" >
+                    <input class="form-control me-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+
+                <div class="nav-icons d-flex align-items-center gap-3">
+                    <a href="orders.html" class="text-success fs-3">
+                        <i class="fa-solid fa-box-dollar"></i>
+                    </a>
+                    <a href="buy.html" class="text-success fs-5">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="position-relative hero overflow-hidden " id="Home">
+        <video class="position-absolute w-100 h-100 object-fit-cover" autoplay loop muted>
+            <source src="backdrop.mp4" type="video/mp4">
+        </video>
+        <div class="position-absolute w-100 h-100 bg-dark bg-opacity-25 d-flex justify-content-center align-items-center text-white">
+            <div class="p-5 ">
+                <h1 class="left  display-3 fw-bold">Taste the Magic of</h1>
+                <h1 class="right display-3 fw-bold">Moroccan Dishes</h1>
+                <p class=" lead pop ">Lorem ipsum dolor, sit amet consectetur adipisicing elit.  Fugit, fuga<br> fugiat neque ipsum itaque natus sed? Cumque illo explicabo asperiores.</p>
+                <button class="left btn btn-success btn-lg  px-4">Order <span><i  class="ms-2 fa fa-arrow-right"></i></span> </button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="py-5">
+        <div class="container ">
+            <h1 class=" h1 text-center my-5 fw-bold">Categories</h1>
+            <div class="row text-center gap-5 d-flex my-5 align-items-center justify-content-center">
+                
+                <div class="shows col-md-2 shadow p-3 rounded-4 ">
+                    <i class="fa-regular fa-burger-soda fs-1 mb-2 text-success"></i>
+                    <p class="mb-1 fw-bold">Fast Food</p>
+                    <p>40 itme</p>
+                </div>
+                <div class="shows col-md-2 shadow p-3 rounded-4 " >
+                    <i class="fa-regular fa-mug-hot fs-1 mb-2 text-success"></i>
+                    <p class="mb-1 fw-bold">Beverages</p>
+                    <p>40 itme</p>
+                </div>
+                <div class="shows col-md-2 shadow p-3 rounded-4   ">
+                    <i class="fa-regular fa-salad  fs-1 mb-2 text-success"></i>
+                    <p class="mb-1 fw-bold">Healthy Food</p>
+                    <p>40 itme</p>
+                </div>
+                <div class="shows col-md-2 shadow p-3 rounded-4">
+                    <i class="fa-sharp fa-regular fa-cupcake fs-1 mb-2 text-success"></i>
+                    <p class="mb-1 fw-bold">Desserts</p>
+                    <p>40 itme</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Dishes" class="py-5">
+        <div class="container ">
+            <h1 class=" h1 text-center my-5 fw-bold">Featured Dishes</h1>
+            <div class="row gap-3 d-flex align-items-center justify-content-center my-5">
+
+                <div class="shows col-md-3">
+                    <div class="card ">
+                        <img src="images/Couscous-M.jpg" style="height: 200px;" class="card-img-top object-fit-cover" alt="food">
+                        <div class="card-body ">
+                          <h5 class="card-title">Couscous</h5>
+                          <p class="card-text m-0">Lorem ipsum dolor sit amet.</p>
+                          <p class="card-text fw-bold text-success fs-4 mb-2">$12.5</p>
+                          <a href="#" class="btn btn-success">Add To Cart</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="shows col-md-3">
+                    <div class="card ">
+                        <img src="images/Tajine.jpeg "style="height: 200px;" class="card-img-top object-fit-cover" alt="food">
+                        <div class="card-body">
+                          <h5 class="card-title">Tajine</h5>
+                          <p class="card-text m-0">Lorem ipsum dolor sit amet.</p>
+                          <p class="card-text fw-bold text-success fs-4 mb-2">$15</p>
+
+                          <a href="#" class="btn btn-success">Add To Cart</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="shows col-md-3">
+                    <div class="card ">
+                        <img src="images/Tanjia.jpeg" style="height: 200px;" class="card-img-top object-fit-cover" alt="food">
+                        <div class="card-body">
+                          <h5 class="card-title">Tanjia</h5>
+                          <p class="card-text m-0">Lorem ipsum dolor sit amet.</p>
+                          <p class="card-text fw-bold text-success fs-4 mb-2">$20</p>
+
+                          <a href="#" class="btn btn-success">Add To Cart</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+   <section class="py-5">
+        <h1 class="fw-bold text-center mb-5">Customers Review</h1>
+        <div class="container my-5">
+
+            <div id="testimonialCarousel" class="carousel slide carousel-dark w-75 mx-auto" data-bs-ride="carousel" data-bs-interval="3000">
+                <div class="carousel-inner ">
+                    
+                    <div class="carousel-item active  ">
+                        <div class="card p-3 w-75 mx-auto border rounded-4 shadow">
+                        <div class="text-center position-relative">
+                            <i class="fa-solid fa-quote-right text-success" style="font-size: 50px; position: absolute; left: 10px; top: 10px;"></i>
+                            <img class="rounded-circle mb-2" src="images/revieww.jpeg" alt="" style="width: 80px; height: 80px; object-fit: cover;">
+                            <p class="my-3 fs-5 text-secondary">"Lmakla bnina bzaaf w t9dim mezian. 9drt ndir commande b zarba w wslo lia l makan f lwaqt!"</p>
+                            <div>
+                            <h5 class="fw-bold">Sarah Johnson</h5>
+                            <div class="text-warning my-3">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            </div>
+                            <i class="fa-solid fa-quote-right text-success" style="position: absolute; right: 10px; bottom: 10px; rotate: 180deg; font-size: 50px;"></i>
+                        </div>
+                        </div>
+                    </div>
+                
+                    <div class="carousel-item ">
+                        <div class="card p-3 w-75 mx-auto border rounded-4 shadow">
+                        <div class="text-center position-relative">
+                            <i class="fa-solid fa-quote-right text-success" style="font-size: 50px; position: absolute; left: 10px; top: 10px;"></i>
+                            <img class="rounded-circle mb-2" src="images/reviewma.jpeg" alt="" style="width: 80px; height: 80px; object-fit: cover;">
+                            <p class="my-3 fs-5 text-secondary">"Tajine dialhoum khater! Rah b7al makla dyal ldar. Ghadi n3awd njarb had site"</p>
+                            <div>
+                            <h5 class="fw-bold">Michael Chen</h5>
+                            <div class="text-warning my-3">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            </div>
+                            <i class="fa-solid fa-quote-right text-success" style="position: absolute; right: 10px; bottom: 10px; rotate: 180deg; font-size: 50px;"></i>
+                        </div>
+                        </div>
+                    </div>
+                
+                    <div class="carousel-item ">
+                        <div class="card p-3 w-75 mx-auto border rounded-4 shadow">
+                        <div class="text-center position-relative">
+                            <i class="fa-solid fa-quote-right text-success" style="font-size: 50px; position: absolute; left: 10px; top: 10px;"></i>
+                            <img class="rounded-circle mb-2" src="images/review.jpeg" alt="Customer 3" style="width: 80px; height: 80px; object-fit: cover;">
+                            <p class="my-3 fs-5 text-secondary">"Jrbt l couscous men 3ndkom w b9it mtdawekh. ta3m original bzaaf!"</p>
+                            <div>
+                            <h5 class="fw-bold">Emma Davis</h5>
+                            <div class="text-warning my-3">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            </div>
+                            <i class="fa-solid fa-quote-right text-success" style="position: absolute; right: 10px; bottom: 10px; rotate: 180deg; font-size: 50px;"></i>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <footer class="text-center py-3 bg-success text-white fw-bold fs-5">
+        <p class="mb-0">© 2024 Soufian. All rights reserved.</p>
+    </footer> -->
+
+
+    <footer class="pt-3 mx-3 mb-1">
+        <div class="container mt-5">
+            <div class="row gy-4 justify-content-center">
+                
+                 <div class="col-lg-3 about">
+                    <a href="index.html" class="d-flex align-items-center text-success fw-bold mb-2">
+                        <span class="sitename ">SaHa</span>
+                    </a>
+                    <p>We deliver fresh and authentic Moroccan food to your doorstep.</p>
+                    <div>
+                        <i class="p-1 fs-4 fa-brands fa-facebook"></i>
+                        <i class="p-1 fs-4 fa-solid fa-envelope"></i>
+                        <i class="p-1 fs-4 fa-brands fa-instagram"></i>
+                        <i class="p-1 fs-4 fa-brands fa-twitter"></i>
+                    </div>
+                 </div>
+                 <div class="col-lg-2 linkes">
+                    <h4>Links</h4>
+                    <ul>
+                        <li class="mb-2 m-0 "><i class="fa-light fa-chevron-right"></i> <a href="index.html">Home</a></li>
+                        <li class="mb-2"><i class="fa-light fa-chevron-right"></i> <a href="menu.html">Menu</a></li>
+                        <li class="mb-2"> <i class="fa-light fa-chevron-right"></i> <a href="about.html">About us</a></li>
+                        <li class="mb-2"><i class="fa-light fa-chevron-right"></i> <a href="contact.html">Contact</a></li>
+                    </ul>
+                 </div>
+                 <div class="col-lg-3">
+                    <h4>Contact Info</h4>
+                    <ul class="contact">
+                        <li class="d-flex gap-3 m-1"><span><i class="fs-5 fa-solid fa-location-dot"></i></span> <span>123 Rue de la Cuisine, Gueliz, Marrakech, Morocco</span></p></li>
+                        <li class="d-flex gap-3 m-1"><span><i class="fs-5 fa-solid fa-phone "></i></span> <span>+212 629-879964</span></li>
+                        <li class="d-flex gap-3 m-1"><span><i class="fs-5 fa-solid fa-envelope"></i></span> <span>soufian@gmail.com</span></li>
+                    </ul>
+                 </div>
+                 <div class="col-lg-3 ">
+                    <div >
+                        <h4>Business Hours</h4>
+                        <ul class="position-relative">
+                            <li>Monday - Friday: <span class="position-absolute" style="right: 0;">9:00 AM - 10:00 PM</span> </li>
+                            <li>Saturday: <span class="position-absolute" style="right: 0;">10:00 AM - 6:00 PM</span> </li>
+                            <li>Sunday: <span class="position-absolute" style="right: 0;">11:00 AM - 9:00 PM</span> </li>
+                        </ul>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        <div class="container text-center p-3" style="border-top: 1px solid rgba(0, 0, 0, 0.339);">
+            <p>© <span>Copyright</span> <strong class="px-1 text-success">SaHA</strong> <span>All Rights Reserved</span></p>
+            <div class="pb-3">
+              Designed by <a class="fw-bold fs-6" target="_blank" href="https://www.instagram.com/soufian._0/">Soufian</a>
+            </div>
+          </div>
+
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

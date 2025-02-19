@@ -1,0 +1,394 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/duotone.css"/>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/brands.css"/>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container">
+            <a class="navbar-brand me-5 mb-1 text-success fw-bold fs-2" href="#">SaHa</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown" >
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Menu
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Main Dishes</a></li>
+                            <li><a class="dropdown-item" href="#">Pastries</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Sweets </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+
+                <form class="d-flex" >
+                    <input class="form-control me-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+
+                <div class="nav-icons d-flex align-items-center gap-3">
+                  <a href="orders.html" class="text-success fs-3">
+                    <i class="fa-solid fa-box-dollar"></i>
+                </a>
+                    <a href="buy.html" class="text-success fs-5">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="Menu">
+        <div class="container">
+            <h1 class="pop h1 text-center my-5 fw-bold">Menu</h1>
+            <div class="sear pop">
+                <form class="search" action="">
+                        <div >
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input  type="search" placeholder="Search">
+                        </div>
+                </form>
+                <select class="form-select">
+                    <option selected>Menu</option>
+                    <option value="1">Main Dishes</option>
+                    <option value="2">Pastries</option>
+                    <option value="2">Sweets </option>
+                </select>
+            </div>
+
+            <div class="row gap-4 d-flex align-items-center justify-content-center mt-5">
+                
+              <div class="pop col-md-3">
+                    <div class="card ">
+                        <img src="images/Baghrir.jpeg" class="card-img-top object-fit-cover" alt="food">
+                        <div class="card-body ">
+                          <h5 class="card-title">Baghrir</h5>
+                          <p class="card-text m-0">Lorem ipsum dolor sit amet.</p>
+                          <p class="card-text fw-bold text-success fs-4 mb-2">$14.5</p>
+                          <a href="#" class="btn btn-success">Add To Cart</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="pop col-md-3">
+                    <div class="card ">
+                        <img src="images/Batbout.jpeg" class="card-img-top object-fit-cover" alt="food">
+                        <div class="card-body">
+                          <h5 class="card-title">Batbout</h5>
+                          <p class="card-text m-0">Lorem ipsum dolor sit amet.</p>
+                          <p class="card-text fw-bold text-success fs-4 mb-2">$10.5</p>
+
+                          <a href="#" class="btn btn-success">Add To Cart</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="pop col-md-3">
+                    <div class="card ">
+                        <img src="images/Bissara.jpeg" class="card-img-top object-fit-cover" alt="food">
+                        <div class="card-body">
+                          <h5 class="card-title">Bissara</h5>
+                          <p class="card-text m-0">Lorem ipsum dolor sit amet.</p>
+                          <p class="card-text fw-bold text-success fs-4 mb-2">$5</p>
+
+                          <a href="#" class="btn btn-success">Add To Cart</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="shows col-md-3">
+                    <div class="card ">
+                        <img src="images/Chebakia.jpeg" class="card-img-top object-fit-cover" alt="food">
+                        <div class="card-body ">
+                          <h5 class="card-title">Chebakia</h5>
+                          <p class="card-text m-0">Lorem ipsum dolor sit amet.</p>
+                          <p class="card-text fw-bold text-success fs-4 mb-2">$14.5</p>
+                          <a href="#" class="btn btn-success">Add To Cart</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="shows col-md-3">
+                    <div class="card ">
+                        <img src="images/Couscous-M.jpg" class="card-img-top object-fit-cover" alt="food">
+                        <div class="card-body">
+                          <h5 class="card-title">Couscous</h5>
+                          <p class="card-text m-0">Lorem ipsum dolor sit amet.</p>
+                          <p class="card-text fw-bold text-success fs-4 mb-2">$10.5</p>
+
+                          <a href="#" class="btn btn-success">Add To Cart</a>
+                        </div>
+                      </div>
+                </div>
+
+
+                <div class="shows col-md-3 ">
+                    <div class="card ">
+                        <img src="images/Egg_Khl3.jpeg" class="card-img-top object-fit-cover" alt="food">
+                        <div class="card-body">
+                          <h5 class="card-title">Egg Khli3</h5>
+                          <p class="card-text m-0">Lorem ipsum dolor sit amet.</p>
+                          <p class="card-text fw-bold text-success fs-4 mb-2">$5</p>
+
+                          <a href="#" class="btn btn-success">Add To Cart</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="shows col-md-3">
+                    <div class="card ">
+                        <img src="images/Harcha.jpeg" class="card-img-top object-fit-cover" alt="food">
+                        <div class="card-body ">
+                          <h5 class="card-title">Harcha</h5>
+                          <p class="card-text m-0">Lorem ipsum dolor sit amet.</p>
+                          <p class="card-text fw-bold text-success fs-4 mb-2">$14.5</p>
+                          <a href="#" class="btn btn-success">Add To Cart</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="shows col-md-3">
+                    <div class="card ">
+                        <img src="images/Harira.jpeg" class="card-img-top object-fit-cover" alt="food">
+                        <div class="card-body">
+                          <h5 class="card-title">Harira</h5>
+                          <p class="card-text m-0">Lorem ipsum dolor sit amet.</p>
+                          <p class="card-text fw-bold text-success fs-4 mb-2">$10.5</p>
+
+                          <a href="#" class="btn btn-success">Add To Cart</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="shows col-md-3">
+                    <div class="card ">
+                        <img src="images/Kaab_el_Ghazal.jpg" class="card-img-top object-fit-cover" alt="food">
+                        <div class="card-body">
+                          <h5 class="card-title">Kaab el Ghazal</h5>
+                          <p class="card-text m-0">Lorem ipsum dolor sit amet.</p>
+                          <p class="card-text fw-bold text-success fs-4 mb-2">$5</p>
+
+                          <a href="#" class="btn btn-success">Add To Cart</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="shows col-md-3">
+                    <div class="card ">
+                        <img src="images/Loubya.jpeg" class="card-img-top object-fit-cover" alt="food">
+                        <div class="card-body ">
+                          <h5 class="card-title">Loubya</h5>
+                          <p class="card-text m-0">Lorem ipsum dolor sit amet.</p>
+                          <p class="card-text fw-bold text-success fs-4 mb-2">$14.5</p>
+                          <a href="#" class="btn btn-success">Add To Cart</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="shows col-md-3">
+                    <div class="card ">
+                        <img src="images/Maakouda.jpeg" class="card-img-top object-fit-cover" alt="food">
+                        <div class="card-body">
+                          <h5 class="card-title">Maakouda</h5>
+                          <p class="card-text m-0">Lorem ipsum dolor sit amet.</p>
+                          <p class="card-text fw-bold text-success fs-4 mb-2">$10.5</p>
+
+                          <a href="#" class="btn btn-success">Add To Cart</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="shows col-md-3 ">
+                    <div class="card ">
+                        <img src="images/Mechoui.jpeg" class="card-img-top object-fit-cover" alt="food">
+                        <div class="card-body">
+                          <h5 class="card-title">Mechoui</h5>
+                          <p class="card-text m-0">Lorem ipsum dolor sit amet.</p>
+                          <p class="card-text fw-bold text-success fs-4 mb-2">$5</p>
+
+                          <a href="#" class="btn btn-success">Add To Cart</a>
+                        </div>
+                      </div>
+                </div>
+                
+                <div class="shows col-md-3 ">
+                    <div class="card ">
+                        <img src="images/msemen.jpeg" class="card-img-top object-fit-cover" alt="food">
+                        <div class="card-body">
+                          <h5 class="card-title">Msemen</h5>
+                          <p class="card-text m-0">Lorem ipsum dolor sit amet.</p>
+                          <p class="card-text fw-bold text-success fs-4 mb-2">$5</p>
+
+                          <a href="#" class="btn btn-success">Add To Cart</a>
+                        </div>
+                      </div>
+                </div>
+                
+                <div class="shows col-md-3 ">
+                    <div class="card ">
+                        <img src="images/Rafisa.jpeg" class="card-img-top object-fit-cover" alt="food">
+                        <div class="card-body">
+                          <h5 class="card-title">Rafisa</h5>
+                          <p class="card-text m-0">Lorem ipsum dolor sit amet.</p>
+                          <p class="card-text fw-bold text-success fs-4 mb-2">$5</p>
+
+                          <a href="#" class="btn btn-success">Add To Cart</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="shows col-md-3 ">
+                    <div class="card ">
+                        <img src="images/Seffa.jpeg" class="card-img-top object-fit-cover" alt="food">
+                        <div class="card-body">
+                          <h5 class="card-title">Seffa</h5>
+                          <p class="card-text m-0">Lorem ipsum dolor sit amet.</p>
+                          <p class="card-text fw-bold text-success fs-4 mb-2">$5</p>
+
+                          <a href="#" class="btn btn-success">Add To Cart</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="shows col-md-3 ">
+                    <div class="card ">
+                        <img src="images/Sellou.jpeg" class="card-img-top object-fit-cover" alt="food">
+                        <div class="card-body">
+                          <h5 class="card-title">Sellou</h5>
+                          <p class="card-text m-0">Lorem ipsum dolor sit amet.</p>
+                          <p class="card-text fw-bold text-success fs-4 mb-2">$5</p>
+
+                          <a href="#" class="btn btn-success">Add To Cart</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="shows col-md-3 ">
+                    <div class="card ">
+                        <img src="images/Tajine.jpeg" class="card-img-top object-fit-cover" alt="food">
+                        <div class="card-body">
+                          <h5 class="card-title">Tajine</h5>
+                          <p class="card-text m-0">Lorem ipsum dolor sit amet.</p>
+                          <p class="card-text fw-bold text-success fs-4 mb-2">$5</p>
+
+                          <a href="#" class="btn btn-success">Add To Cart</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="shows col-md-3 ">
+                    <div class="card ">
+                        <img src="images/Tanjia.jpeg" class="card-img-top object-fit-cover" alt="food">
+                        <div class="card-body">
+                          <h5 class="card-title">Tanjia</h5>
+                          <p class="card-text m-0">Lorem ipsum dolor sit amet.</p>
+                          <p class="card-text fw-bold text-success fs-4 mb-2">$5</p>
+
+                          <a href="#" class="btn btn-success">Add To Cart</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+
+            <nav>
+              <ul class="pagination justify-content-center mt-3">
+                <li class="page-item">
+                  <a class="page-link text-success" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                  </a>
+                </li>
+                <li class="page-item"><a class="page-link text-success" href="#">1</a></li>
+                <li class="page-item "><a class="page-link text-success" href="#">2</a></li>
+                <li class="page-item"><a class="page-link text-success" href="#">3</a></li>
+                <li class="page-item text-success">
+                  <a class="page-link text-success" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+        </div>
+
+    </section>
+
+    <footer class="pt-3 mx-3 mb-1">
+      <div class="container mt-5">
+          <div class="row gy-4 justify-content-center">
+              
+               <div class="col-lg-3 about">
+                  <a href="index.html" class="d-flex align-items-center text-success fw-bold mb-2">
+                      <span class="sitename ">SaHa</span>
+                  </a>
+                  <p>We deliver fresh and authentic Moroccan food to your doorstep.</p>
+                  <div >
+                      <i class="p-1 fs-4 fa-brands fa-facebook"></i>
+                      <i class="p-1 fs-4 fa-solid fa-envelope"></i>
+                      <i class="p-1 fs-4 fa-brands fa-instagram"></i>
+                      <i class="p-1 fs-4 fa-brands fa-twitter"></i>
+                  </div>
+               </div>
+               <div class="col-lg-2 linkes">
+                  <h4>Links</h4>
+                  <ul>
+                      <li class="mb-2 m-0 "><i class="fa-light fa-chevron-right"></i> <a href="index.html">Home</a></li>
+                      <li class="mb-2"><i class="fa-light fa-chevron-right"></i> <a href="menu.html">Menu</a></li>
+                      <li class="mb-2"> <i class="fa-light fa-chevron-right"></i> <a href="about.html">About us</a></li>
+                      <li class="mb-2"><i class="fa-light fa-chevron-right"></i> <a href="contact.html">Contact</a></li>
+                  </ul>
+               </div>
+               <div class="col-lg-3">
+                  <h4>Contact Info</h4>
+                  <ul class="contact">
+                      <li class="d-flex gap-3 m-1"><span><i class="fs-5 fa-solid fa-location-dot"></i></span> <span>123 Rue de la Cuisine, Gueliz, Marrakech, Morocco</span></p></li>
+                      <li class="d-flex gap-3 m-1"><span><i class="fs-5 fa-solid fa-phone "></i></span> <span>+212 629-879964</span></li>
+                      <li class="d-flex gap-3 m-1"><span><i class="fs-5 fa-solid fa-envelope"></i></span> <span>soufian@gmail.com</span></li>
+                  </ul>
+               </div>
+               <div class="col-lg-3 ">
+                  <div >
+                      <h4>Business Hours</h4>
+                      <ul class="position-relative">
+                          <li>Monday - Friday: <span class="position-absolute" style="right: 0;">9:00 AM - 10:00 PM</span> </li>
+                          <li>Saturday: <span class="position-absolute" style="right: 0;">10:00 AM - 6:00 PM</span> </li>
+                          <li>Sunday: <span class="position-absolute" style="right: 0;">11:00 AM - 9:00 PM</span> </li>
+                      </ul>
+                  </div>
+               </div>
+          </div>
+      </div>
+      <div class="container text-center p-3" style="border-top: 1px solid rgba(0, 0, 0, 0.339);">
+          <p>© <span>Copyright</span> <strong class="px-1 text-success">SaHA</strong> <span>All Rights Reserved</span></p>
+          <div class="pb-3">
+            Designed by <a class="fw-bold fs-6" target="_blank" href="https://www.instagram.com/soufian._0/">Soufian</a>
+          </div>
+        </div>
+
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
